@@ -2,12 +2,12 @@
   "name": "sigaa-scraper",
   "version": "0.0.1",
   "description": "SIGAA scraper.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:irwinschmitt/sigaa-scraper.git",
   "author": "Irwin Schmitt <irwinschmitt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc --watch",
+    "start": "tsc && node dist/index.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prettier": "prettier --check .",
@@ -24,5 +24,8 @@
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "puppeteer": "^19.8.5"
   }
 }
