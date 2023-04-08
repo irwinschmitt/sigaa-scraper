@@ -1,0 +1,15 @@
+{
+  "name": "sigaa-scraper",
+  "version": "0.0.1",
+  "description": "SIGAA scraper.",
+  "main": "index.js",
+  "repository": "git@github.com:irwinschmitt/sigaa-scraper.git",
+  "author": "Irwin Schmitt <irwinschmitt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
