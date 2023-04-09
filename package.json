@@ -1,9 +1,14 @@
 {
   "name": "sigaa-scraper",
   "version": "0.0.1",
-  "description": "SIGAA scraper.",
+  "description": "Scraper for SIGAA (Sistema Integrado de Gestão de Atividades Acadêmicas).",
   "main": "dist/index.js",
   "repository": "git@github.com:irwinschmitt/sigaa-scraper.git",
+  "keywords": [
+    "sigaa",
+    "scraper",
+    "unb"
+  ],
   "author": "Irwin Schmitt <irwinschmitt@gmail.com>",
   "license": "MIT",
   "scripts": {
